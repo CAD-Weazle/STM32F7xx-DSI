@@ -1,0 +1,1 @@
+D:\OpenOCD\bin\openocd -f stlink.cfg -c "program h7-test.hex reset exit"
