@@ -1,4 +1,4 @@
-// file    : sdram.c
+// file    : fmc.c
 // author  : rb
 // purpose : STM32F7xx FMC routines 
 // date    : 251224
@@ -178,6 +178,7 @@ int mats_plus (uint32_t base_addr, uint32_t words)
   
   return 0; // PASS
 }
+
 
 
 
