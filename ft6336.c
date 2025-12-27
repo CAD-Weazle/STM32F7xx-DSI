@@ -4,7 +4,6 @@
 // date    : 251223
 // last    : 251223
 //
-// todo    : GPIO triggered ISR
 
 #include "includes.h"
 
@@ -137,6 +136,7 @@ void ft6336_id (void)
   printf ("rate active    : %d\n", ft6336_read_reg8 (FT6336_REG_PERIODACTIVE)); 
   printf ("rate monitor   : %d\n", ft6336_read_reg8 (FT6336_REG_PERIODMONITOR));
 }
+
 
 
 
