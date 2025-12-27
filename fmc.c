@@ -4,7 +4,7 @@
 // date    : 251224
 // last    : 251225
 //
-// note    : SDRAM on STM32F769I-DISCO board: IS42S32400F - 128Mb/1M x 32 bit x 4 banks (0x00400000 32-bit words
+// note    : SDRAM on STM32F769I-DISCO board: IS42S32400F - 128Mb/1M x 32 bit x 4 banks (0x00400000 32-bit words)
 
 #include "includes.h"
 
@@ -178,6 +178,7 @@ int mats_plus (uint32_t base_addr, uint32_t words)
   
   return 0; // PASS
 }
+
 
 
 
