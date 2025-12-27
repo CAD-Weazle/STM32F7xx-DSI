@@ -4,6 +4,7 @@
 // date    : 251220
 // last    : 251223
 //
+
 #include "includes.h"
 
 // init I2C 
@@ -139,3 +140,4 @@ void i2c4_dump_registers (void)
   printf ("I2C4_TXDR     : 0x%08lx\n", I2C4->TXDR);
   printf ("\n");
 }
+
