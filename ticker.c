@@ -2,7 +2,7 @@
 // author  : rb
 // purpose : STM32F7xx timer routines
 // date    : 251205
-// last    : 251204
+// last    : 251224
 //
 // note    : Timer 6 usleep timer
 
@@ -99,3 +99,4 @@ void timer_dump_registers (void)
 //printf ("TIM7->CCMR2: %08lx\n", TIM7->CCMR2);
 //printf ("TIM7->CCER : %08lx\n", TIM7->CCER);	
 }
+
