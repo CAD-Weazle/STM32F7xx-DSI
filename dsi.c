@@ -541,7 +541,7 @@ void fill_rect (void)
 //printf ("filling color: 0x%06lx\n", color);
 
   // fill memory
-  for (int i = 0; i < ((HACT+2) * VACT)/4; i++)
+  for (int i = 0; i < ((HACT+2) * (VACT+2))/4; i++)
   {
     ((uint32_t *)LCD_MEM_ADR)[i] = 0xff000000 | color; 
   }
@@ -627,7 +627,7 @@ void color_wheel (void)
   uint32_t color = (red << 16) | (grn << 8) | blu;
 
   // fill memory
-  for (int i = 0; i < ((HACT+2) * VACT)/4; i++)
+  for (int i = 0; i < ((HACT+2) * (VACT+2))/4; i++)
   {
     ((uint32_t *)LCD_MEM_ADR)[i] = 0xff000000 | color; 
   }
@@ -640,4 +640,5 @@ void color_wheel (void)
 
 //printf ("r: %3d g: %3d b: %3d - 0x%06lx\n", red, grn, blu, color);
 }
+
 
